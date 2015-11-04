@@ -2,7 +2,8 @@
 
 
 body {
-
+	background-size: cover;
+	background-color: #1D1010;
 }
 
 .container {
@@ -13,7 +14,19 @@ body {
 	margin: 0 auto;
 	background-image: url("background3.jpg");
 	background-size: cover;
-	border-radius: 20px;
+	border-radius: 40px;
+}
+
+h1 {
+	font-family: 'Philosopher', sans-serif;
+	color: #535151;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+}
+
+li {
+	padding-bottom: 340px;
 }
 
 .chat_bot {
@@ -22,16 +35,24 @@ body {
 	height:500px;
 	position: relative;
 	background-color: black;
-	opacity: .8;
-	border-radius: 15px;
+	opacity: .7;
+	border-radius: 40px;
 	margin-left: 100px;
 	margin-top: 50px;
+}
+
+
+#text_input {
+	width:80%;
+	margin:0 auto;
+	display:block;
 }
 
 .history {
 	font-family: 'Philosopher', sans-serif;
 	color: white;
 	font-size: 20px;
+	font-weight: 200;
 }
 
 .picture {
@@ -42,9 +63,14 @@ body {
 
 .picture img {
 	width:auto;
-	height:500px;
-	border-radius: 10px;
-	text-align:center;
+	height:450px;
+	border-radius: 500px;
+	opacity: .85;
+	margin-right: 60px;
+	margin-top: 80px;
+}
+.picture img:hover{
+	opacity: 1;
 }
 
 
@@ -60,10 +86,4 @@ body {
 
 }
 
-#text_input {
-	width:80%;
-	margin:0 auto;
-	display:block;
-	margin-top: 400px;
 
-}
