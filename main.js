@@ -1,20 +1,27 @@
-console.log("linked")
-
 $(document).ready(function(){
+	console.log("linked")
+	var ducats = 10000
+	var $list = $('.history');
+	var $textInput = $('#text_input').val();
 
-	var $list = ('.history');
-	var $textInput = ('#text_input')
-
-var purse = function (){
-	if ($textInput = 'purse') {
-		$list.text("ShylockBot pulls out his purse containing 10000 ducats.")
+	var submit = function(event){
+		var $textInput = $('#text_input').val();
+		if (event.keyCode === 13){
+			var $li = $('<li>');
+			console.log('pressed enter')
+			console.log($textInput);
+			if ($textInput === 'purse'){
+				var $li = $('<li>');
+				$('ul').append($li);
+				$li.text('ShylockBot pulls out his purse containing' + " " + ducats + " " + 'ducats.');
+				console.log($li);
+			}
+		}
 	};
-};
-
-$(document).keypress(purse)
 
 
 
+$(document).on('keypress', submit);
 
 
 
