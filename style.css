@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Philosopher:400,700);
+
+
+body {
+
+}
+
+.container {
+	height: 600px;
+	width: 1000px;
+	background-color:#535151;
+	position: center;
+	margin: 0 auto;
+	background-image: url("background3.jpg");
+	background-size: cover;
+	border-radius: 20px;
+}
+
+.chat_bot {
+	float:left;
+	width:300px;
+	height:500px;
+	position: relative;
+	background-color: black;
+	opacity: .8;
+	border-radius: 15px;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+
+.history {
+	font-family: 'Philosopher', sans-serif;
+	color: white;
+	font-size: 20px;
+}
+
+.picture {
+	float:right;
+	position: relative;
+
+}
+
+.picture img {
+	width:auto;
+	height:500px;
+	border-radius: 10px;
+	text-align:center;
+}
+
+
+.list {
+
+}
+
+#log {
+
+}
+
+.input {
+
+}
+
+#text_input {
+	width:80%;
+	margin:0 auto;
+	display:block;
+	margin-top: 400px;
+
+}
