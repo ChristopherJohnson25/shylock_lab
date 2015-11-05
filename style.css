@@ -26,7 +26,7 @@ h1 {
 }
 
 li {
-	padding-bottom: 340px;
+	padding-bottom: 400px;
 	font-size: 20px;
 	/*text-align: center;*/
 	margin-right: 38px;
@@ -44,7 +44,6 @@ li {
 	margin-top: 50px;
 }
 
-
 #text_input {
 	width:80%;
 	margin:0 auto;
@@ -56,15 +55,15 @@ li {
 	text-align: center;
 }
 
-.history {
+#log {
 	font-family: 'Philosopher', sans-serif;
 	color: white;
-	font-size: 20px;
+	font-size: 10px;
 	height:300px;
 	font-weight: 200;
 	list-style: none;
-	overflow:scroll;
-	padding-bottom: 0px;
+	overflow: auto;
+	padding-bottom: 35px;
 }
 
 .picture {
